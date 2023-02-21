@@ -1,0 +1,42 @@
+[
+ {
+  "name": "R",
+  "description": "A components that allows to run R code",
+  "group": "Custom",
+  "icon": "RiCheckboxBlankCircleFill",
+  "click": null,
+  "events": null,
+  "configured": true,
+  "inputs": [
+   {
+    "id": "input",
+    "label": "input",
+    "service": "",
+    "to": "output"
+   }
+  ],
+  "outputs": [
+   {
+    "id": "output",
+    "label": "output"
+   }
+  ],
+  "options": {
+   "values": {
+    "code": "seq(from = 5, to = 100, by = 5)"
+   },
+   "args": [
+    {
+     "name": "code",
+     "type": "code",
+     "label": "code",
+     "helper": "",
+     "group": "",
+     "value": "seq(from = 5, to = 100, by = 5)",
+     "description": "",
+     "validation": null
+    }
+   ]
+  }
+ }
+]

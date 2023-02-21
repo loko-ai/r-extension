@@ -1,0 +1,6 @@
+Flask
+loko-extensions
+loko-client
+rpy2 == 3.5.1
+numpy
+loguru
