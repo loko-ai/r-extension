@@ -1,3 +1,7 @@
 {
-  "main": {}
+  "main": {
+    "volumes": [
+      "/var/opt/loko/projects/r/data:/plugin/data"
+    ]
+  }
 }

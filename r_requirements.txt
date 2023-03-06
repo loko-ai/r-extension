@@ -1,0 +1,5 @@
+devtoools
+dplyr
+jsonlite
+ggplot2
+data.table
