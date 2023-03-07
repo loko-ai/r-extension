@@ -1,9 +1,9 @@
 [
  {
   "name": "R",
-  "description": "A components that allows to run R code",
+  "description": "\n### Description\n\nThis components allows to write code in R and run it directly in LOKO AI. If yo have any file that you want to use, add it to the volume folder, where the default path is:\n```/var/opt/loko/projects/r/data``` \n\nTo install new packages you can either do it by code, with the classical R sintax ```install.packages('package_name')```, or by adding it to the r_requirementes.txt file that you can find in the path ```/home/$USER/loko/shared/extensions/r-extension/```",
   "group": "Custom",
-  "icon": "RiCheckboxBlankCircleFill",
+  "icon": "RiDraftFill",
   "click": null,
   "events": null,
   "configured": true,
